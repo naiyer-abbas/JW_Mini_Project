@@ -1,4 +1,3 @@
-
 function openNav() {
 
     document.getElementById("mySidenav").style.width = "20%";
@@ -9,13 +8,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-  fetch('Naiyer_Abbas.jpg')
-        .then(response =>{
-          console.log(response);
-          return response.blob();
-        })
-        .then(blob =>{
-          console.log(blob);
-          document.getElementById('myImage').src = URL.createObjectURL(blob);
-        });
+  
+  document.getElementById('myImage').src = 'https://drive.google.com/uc?id=1BgJdt8D413B5ccCjWa9A1J7KvzCZnjBp&export=download'
+        
 
